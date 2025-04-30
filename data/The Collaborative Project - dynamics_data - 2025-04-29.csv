@@ -1,0 +1,21 @@
+domain,dimension,dimension_value
+Contexts,Challenge,0.55
+Contexts,Diversity,0.57
+Contexts,Resources,0.75
+Contexts,Trust,0.39
+Partnerships,Beneficence,0.61
+Partnerships,Decisions,0.48
+Partnerships,Reflection,0.26
+Partnerships,Tools,0.17
+Research,Design,0.25
+Research,Time,0.73
+Research,Questions,0.36
+Research,Voice,0.3
+Learning,Civic Learning,0.79
+Learning,Integration,0.58
+Learning,Learning Goals,0.37
+Learning,Reciprocity,0.21
+Outcomes,Capabilities,0.56
+Outcomes,Goals,0.53
+Outcomes,Outputs,0.75
+Outcomes,Sustainability,0.75

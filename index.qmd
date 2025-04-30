@@ -1,0 +1,284 @@
+---
+title: "CEnTR-IMPACT Report for the Collaborative Project"
+authors:
+  - name: Tanesha L. Duval
+    orcid: 0000-0009-1122-3344
+    email: tduval@pau.edu
+    url: https://taneshaduval.pau.org
+    degrees: PhD
+    attributes:
+      corresponding: TRUE
+    affiliations:
+      - name: Palmetto Atlantic University
+        department: Department of Coastal Sustainability
+        address: 2100 Marshview Road
+        city: Seaside
+        state: SC
+        postal-code: 29451
+        country: USA
+        url: https://dcs.pau.edu/
+    role: 
+      - conceptualization: supporting
+      - methodology: lead
+  - name: Mateo D. Nguyen
+    orcid: 0000-0008-2468-1357
+    email: mdnguyen@rsu.edu
+    url: https://mateonguyen.rsu.org/
+    degrees: PhD
+    affiliations:
+      - name: Redwood State University
+        group: Institute for Social Futures
+        address: 501 Sycamore Lane
+        city: Brookridge
+        state: CA
+        postal-code: 95472
+        country: USA
+        url: https://isf.rsu.edu/
+    role: 
+      - conceptualization: lead
+      - methodology: supporting
+  - name: Riley S. Harper
+    orcid: 0000-0003-4567-8910
+    email: rharper@evu.edu
+    url: https://rileyharper.cci.evu.edu/
+    degrees: PhD
+    affiliations:
+      - name: Evergreen Valley University
+        group: Center for Community Innovation
+        address: 742 Inspiration Drive
+        city: Meadowbrook
+        state: IN
+        postal-code: 46099
+        country: USA
+        url: https://cci.evu.edu/
+    role: 
+      - conceptualization: supporting
+      - methodology: supporting
+license: "CC BY-SA"
+funding: "This project is supported in part by Award #1234 from The Research Foundation."
+format: html
+params:
+  project_name: "The Collaborative Project"
+  snapshot_date: "2025-04-29"
+  report_date: "2025-04-29"
+callout-appearance: simple
+appendix-style: default
+highlight-style: github
+code-block-bg: false
+sansfont: "Source Sans 3"
+mainfont: "XETBook"
+monofont: "Maple Mono"
+---
+
+```{r}
+#| label: setup
+#| include: false
+#| warning: false
+#| fig-show: hide
+#| output: false
+#| message: false
+#| results: hide
+
+# Load setup script
+source("setup.R")
+```
+
+## Introduction
+
+This is the CEnTR-IMPACT report for `r project_name` generated on `r report_date`.
+
+**CEnTR\*IMPACT** is a set of quantitative metrics grounded in Community-Based Participatory Research (CBPR) methodology.
+
+<!-- Enter a brief description of your research project below.  -->
+<!--------This text can be formatted in Quarto Markdown.---------->
+<!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
+
+
+
+<!-- Enter a brief description of your research project above.  -->
+
+```{r}
+#| label: dashboard-plot
+#| fig-cap: "CEnTR-IMPACT scores."
+#| echo: false
+#| out-width: "100%"
+
+# Display the plot
+knitr::include_graphics(
+  glue::glue("plots/{project_name} - dashboard_plot - {report_date}.png")
+ )
+
+```
+
+## Direct Indicators
+
+Direct Indicators are status counts of information including the number of partner instituations;
+the amount of time spent working together; the total number of attendees and participants at events and meetings; the total number of tools, documents, processes created to ensure fairness and accountability through the partnership; the total number of products---e.g., community-facing, scholar-facing---created; if engaged learning is a component of the project; and the number of agreed-to outcomes that have been met through the project.
+
+### Results
+
+```{r}
+#| label: indicators-plot
+#| fig-cap: "CEnTR-IMPACT Direct Indicators."
+#| echo: false
+#| out-width: "100%"
+
+# Display the plot
+knitr::include_graphics(
+  glue::glue("plots/{project_name} - indicators_plot - {report_date}.png")
+)
+```
+
+### Analysis
+
+<!--     Enter your analysis of the project dynamics below.     -->
+<!------- This text can be formatted in Quarto Markdown. --------->
+<!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
+
+
+
+<!--     Enter your analysis of the project dynamics above.     -->
+
+## Project Dynamics
+
+Project Dynamics information provides insight into where the project started, how the project is being carried out, and where the project ended up so far. Providing indicators across the domains of contexts, processes, research, and outcomes, Project Dynamics provides a map for facilitating a more successful and fair partnership.
+
+### Results
+
+```{r}
+#| label: dynamics-plot
+#| fig-cap: "CEnTR-IMPACT Project Dynamics scores."
+#| echo: false
+#| out-width: "75%"
+
+# Display the plot
+knitr::include_graphics(
+  glue::glue("plots/{project_name} - dynamics_plot - {report_date}.png")
+)
+```
+
+### Analysis
+
+<!--     Enter your analysis of the project dynamics below.     -->
+<!------- This text can be formatted in Quarto Markdown. --------->
+<!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
+
+
+
+<!--     Enter your analysis of the project dynamics above.     -->
+
+## Project Alignment
+
+Project Alignment illuminates the degree to which community partners and university researchers are aligned on the following areas: Goals, Values, Roles, Resources, Activities, Empowerment,
+Outputs, and Outcomes. Project Alignment is determined through a common survey provided to researchers and community partners.
+
+### Results
+
+```{r}
+#| label: alignment-plot
+#| fig-cap: "Project Alignment visualization."
+#| echo: false
+#| out-width: "100%"
+```
+
+The Alignment Score ($S_a$) is `r alignment_score`.
+
+`r knitr::include_graphics(glue::glue("plots/{project_name} - alignment_plot - {report_date}.png"))`
+
+`r kable(alignment_df)`
+
+### Analysis
+
+<!--     Enter your analysis of the project dynamics below.     -->
+<!------- This text can be formatted in Quarto Markdown. --------->
+<!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
+
+
+
+<!--     Enter your analysis of the project dynamics above.     -->
+
+
+## Project Cascade Effects
+
+Cascade Effects is a measure of the *potential* for community-engaged research impacts to spread to people based on the *structure* of an estimated model of the project's social network across three degrees. The first degree (1°) is comprised of the project staff and community participants directly involved in the project, and the second (2°) and third (3°) degrees are spread outwardly from there.
+
+### Results
+
+```{r}
+#| label: cascade-plot
+#| fig-cap: "Project Cascade Effects visualization."
+#| echo: false
+#| out-width: "75%"
+
+# This would call your cascade effects visualization function
+# create_cascade_plots(project_name, snapshot_date, report_date, colors)
+knitr::include_graphics(
+  glue::glue(
+    "plots/{project_name} - cascade_effects_plot - {report_date}.png"
+    ))
+```
+
+### Analysis
+
+<!-- Add content describing the cascade effects results here -->
+
+# Appendix
+
+## Methods
+
+### Direct Indicators
+
+### Dynamics
+
+### Alignment
+
+### Cascade Effects
+
+## Equations
+
+The following are equations utilized to calculate the intermediate and final scores.
+
+::: {.panel-tabset}
+
+### Geometric Mean ($\text{GM}$)
+
+$$ \text{GM} = \left(\prod_{j=1}^{n} M_j\right)^{\frac{1}{n}} $$
+where $s_i$ is the individual domain score.
+
+### LaTeX
+
+```latex
+s_i = \left(\prod_{j=1}^{n} M_j\right)^{\frac{1}{n}}
+```
+
+### R
+
+```r
+library(psych)
+geometric_mean <- geometric.mean(data_frame$vector)
+```
+
+:::
+
+::: {.panel-tabset}
+
+### Gini Index Complement ($G_{\text{c}}$)
+
+$$ G_{\text{c}} = 1 - \left( \frac{1}{2n^2\mu} \sum_{i=1}^{n} \sum_{j=1}^{n} | y_i - y_j | \right) $$
+Where: $n$ is the number of domains or degrees, $y_i$ and $y_j$ are domain or degree scores, 
+and $\mu$ is the mean domain or degree score.
+
+### LaTeX
+
+```latex
+G' = 1 - \left( \frac{1}{2n^2\mu} \sum_{i=1}^{n} \sum_{j=1}^{n} | y_i - y_j | \right)
+```
+
+### R
+
+```r
+library(psych)
+geometric_mean <- geometric.mean(data_frame$vector)
+```
+
+:::
