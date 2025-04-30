@@ -1,0 +1,39 @@
+CODE OF CONDUCT
+This repository is part of a collective commitment to community-engaged and transformative research. We strive to create a space where all contributors—researchers, community members, developers, and educators—can collaborate with mutual respect, openness, and care.
+
+OUR PLEDGE
+
+In the interest of fostering an inclusive, collaborative, and respectful environment, we pledge to:
+  
+* Acknowledge and value diverse ways of knowing, doing, and being.
+* Welcome and encourage contributions from individuals of all backgrounds, disciplines, and identities.
+* Prioritize community wisdom and lived experience alongside technical and academic expertise.
+* Treat everyone with respect, empathy, and kindness.
+* Practice consent-based collaboration and recognize boundaries.
+* Be open to feedback, reflection, and change.
+
+UNNACCEPTABLE BEHAVIOR
+
+We are committed to creating a safe and inclusive environment for all contributors. Unacceptable behavior includes, but is not limited to:
+  
+* Discrimination, marginalization, or dismissal of others based on identity, background, or experience.
+* Harassment, intimidation, or disrespect in any form—verbal, behavioral, or written.
+* Gatekeeping of knowledge, especially where it excludes community voices.
+* Appropriation or misuse of community-contributed data, narratives, or resources.
+
+INCLUSIVE COLLABORATION GUIDELINES
+
+Engage responsibly. Consider how your contributions affect others—especially those whose perspectives are underrepresented in tech or research.
+
+* Use person-first language. Be mindful of how you describe individuals, communities, and their work.
+* Attribute thoughtfully. Cite and acknowledge both academic and community-originated contributions.
+* Document accessibly. Make code, documents, and communication clear and welcoming to newcomers from diverse backgrounds.
+* Support community growth. Mentor, uplift, and invite others into the process of building knowledge and tools.
+
+REPORTING & SUPPORT
+
+If you experience or witness behavior that does not align with this Code of Conduct, please raise the issue via GitHub Issues or contact the maintainers directly. Reports will be handled with care and confidentiality.
+
+GROUNDED IN COMMUNITY
+
+This project honors the principle that research and development should be co-created with the communities they affect. We aim to build trust, share power, and stay accountable.
