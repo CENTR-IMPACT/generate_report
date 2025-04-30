@@ -1,4 +1,4 @@
-# 🧭 CEnTR\*IMPACT Report Generator
+# CEnTR\*IMPACT Report Generator
 
 **Community Engaged and Transformative Research Inclusive Measurement of Projects and Community Transformation**
 
@@ -51,19 +51,3 @@ Includes score tables and visualizations for:
 * Project Dynamics
 * Cascade Effects
 * Direct Indicators
-
-It’s ideal for use in:
-- Faculty annual reviews
-- Grant reporting
-- Internal evaluation and reflection
-- Multi-project comparison
-
----
-
-## 🚀 How to Use
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/CENTR-IMPACT/generate_report.git
-cd generate_report
