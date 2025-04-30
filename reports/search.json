@@ -32,7 +32,7 @@
     "href": "index.html#project-alignment",
     "title": "CEnTR-IMPACT Report for the Collaborative Project",
     "section": "Project Alignment",
-    "text": "Project Alignment\nProject Alignment illuminates the degree to which community partners and university researchers are aligned on the following areas: Goals, Values, Roles, Resources, Activities, Empowerment, Outputs, and Outcomes. Project Alignment is determined through a common survey provided to researchers and community partners.\n\nResults\nThe Alignment Score (\\(S_a\\)) is 0.95.\n\n\n\n\n\n\nalignment\nResearchers\nPartners\nOverall\n\n\n\n\nActivities\n0.63\n0.76\n0.65\n\n\nEmpowerment\n0.58\n0.62\n0.65\n\n\nGoals\n0.63\n0.88\n0.65\n\n\nOutcomes\n0.54\n0.68\n0.65\n\n\nOutputs\n0.53\n0.77\n0.65\n\n\nResources\n0.74\n0.62\n0.65\n\n\nRoles\n0.75\n0.58\n0.65\n\n\nValues\n0.55\n0.69\n0.65\n\n\n\n\n\nAnalysis"
+    "text": "Project Alignment\nProject Alignment illuminates the degree to which community partners and university researchers are aligned on the following areas: Goals, Values, Roles, Resources, Activities, Empowerment, Outputs, and Outcomes. Project Alignment is determined through a common survey provided to researchers and community partners.\n\nResults\nThe Alignment Score (\\(S_a\\)) is 0.32.\n\n\n\n\n\n\nAlignment\nResearchers\nPartners\nOverall\n\n\n\n\nActivities\n0.63\n0.76\n0.69\n\n\nEmpowerment\n0.58\n0.62\n0.60\n\n\nGoals\n0.63\n0.88\n0.74\n\n\nOutcomes\n0.54\n0.68\n0.61\n\n\nOutputs\n0.53\n0.77\n0.64\n\n\nResources\n0.74\n0.62\n0.68\n\n\nRoles\n0.75\n0.58\n0.66\n\n\nValues\n0.55\n0.69\n0.62\n\n\n\n\n\nAnalysis"
   },
   {
     "objectID": "index.html#project-cascade-effects",
@@ -54,82 +54,5 @@
     "title": "CEnTR-IMPACT Report for the Collaborative Project",
     "section": "Equations",
     "text": "Equations\nThe following are equations utilized to calculate the intermediate and final scores.\n\nGeometric Mean (\\(\\text{GM}\\))LaTeXR\n\n\n\\[ \\text{GM} = \\left(\\prod_{j=1}^{n} M_j\\right)^{\\frac{1}{n}} \\] where \\(s_i\\) is the individual domain score.\n\n\ns_i = \\left(\\prod_{j=1}^{n} M_j\\right)^{\\frac{1}{n}}\n\n\nlibrary(psych)\ngeometric_mean &lt;- geometric.mean(data_frame$vector)\n\n\n\n\nGini Index Complement (\\(G_{\\text{c}}\\))LaTeXR\n\n\n\\[ G_{\\text{c}} = 1 - \\left( \\frac{1}{2n^2\\mu} \\sum_{i=1}^{n} \\sum_{j=1}^{n} | y_i - y_j | \\right) \\] Where: \\(n\\) is the number of domains or degrees, \\(y_i\\) and \\(y_j\\) are domain or degree scores, and \\(\\mu\\) is the mean domain or degree score.\n\n\nG' = 1 - \\left( \\frac{1}{2n^2\\mu} \\sum_{i=1}^{n} \\sum_{j=1}^{n} | y_i - y_j | \\right)\n\n\nlibrary(psych)\ngeometric_mean &lt;- geometric.mean(data_frame$vector)"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "generate_report/index.html",
-    "href": "generate_report/index.html",
-    "title": "Generate_report",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "generate_report.html",
-    "href": "generate_report.html",
-    "title": "CEnTR-IMPACT Report for the Collaborative Project",
-    "section": "",
-    "text": "This is the CEnTR-IMPACT report for The Collaborative Project generated on 2025-04-29.\nCEnTR*IMPACT is a set of quantitative metrics grounded in Community-Based Participatory Research (CBPR) methodology.\n\n\n\n\n\n\n\n\n\nCEnTR-IMPACT scores."
-  },
-  {
-    "objectID": "generate_report.html#introduction",
-    "href": "generate_report.html#introduction",
-    "title": "CEnTR-IMPACT Report for the Collaborative Project",
-    "section": "",
-    "text": "This is the CEnTR-IMPACT report for The Collaborative Project generated on 2025-04-29.\nCEnTR*IMPACT is a set of quantitative metrics grounded in Community-Based Participatory Research (CBPR) methodology.\n\n\n\n\n\n\n\n\n\nCEnTR-IMPACT scores."
-  },
-  {
-    "objectID": "generate_report.html#direct-indicators",
-    "href": "generate_report.html#direct-indicators",
-    "title": "CEnTR-IMPACT Report for the Collaborative Project",
-    "section": "Direct Indicators",
-    "text": "Direct Indicators\nDirect Indicators are status counts of information including the number of partner instituations; the amount of time spent working together; the total number of attendees and participants at events and meetings; the total number of tools, documents, processes created to ensure fairness and accountability through the partnership; the total number of products—e.g., community-facing, scholar-facing—created; if engaged learning is a component of the project; and the number of agreed-to outcomes that have been met through the project.\n\nResults\n\n\n\n\n\nCEnTR-IMPACT Direct Indicators.\n\n\n\n\n\n\nAnalysis"
-  },
-  {
-    "objectID": "generate_report.html#project-dynamics",
-    "href": "generate_report.html#project-dynamics",
-    "title": "CEnTR-IMPACT Report for the Collaborative Project",
-    "section": "Project Dynamics",
-    "text": "Project Dynamics\nProject Dynamics information provides insight into where the project started, how the project is being carried out, and where the project ended up so far. Providing indicators across the domains of contexts, processes, research, and outcomes, Project Dynamics provides a map for facilitating a more successful and fair partnership.\n\nResults\n\n\n\n\n\nCEnTR-IMPACT Project Dynamics scores.\n\n\n\n\n\n\nAnalysis"
-  },
-  {
-    "objectID": "generate_report.html#project-alignment",
-    "href": "generate_report.html#project-alignment",
-    "title": "CEnTR-IMPACT Report for the Collaborative Project",
-    "section": "Project Alignment",
-    "text": "Project Alignment\nProject Alignment illuminates the degree to which community partners and university researchers are aligned on the following areas: Goals, Values, Roles, Resources, Activities, Empowerment, Outputs, and Outcomes. Project Alignment is determined through a common survey provided to researchers and community partners.\n\nResults\n\n\n\n\n\nProject Alignment visualization.\n\n\n\n\n\n\nAnalysis"
-  },
-  {
-    "objectID": "generate_report.html#project-cascade-effects",
-    "href": "generate_report.html#project-cascade-effects",
-    "title": "CEnTR-IMPACT Report for the Collaborative Project",
-    "section": "Project Cascade Effects",
-    "text": "Project Cascade Effects\nCascade Effects is a measure of the potential for community-engaged research impacts to spread to people based on the structure of an estimated model of the project’s social network across three degrees. The first degree (1°) is comprised of the project staff and community participants directly involved in the project, and the second (2°) and third (3°) degrees are spread outwardly from there.\n\nResults\n\n\n\n\n\nProject Cascade Effects visualization.\n\n\n\n\n\n\nAnalysis"
-  },
-  {
-    "objectID": "generate_report.html#methods",
-    "href": "generate_report.html#methods",
-    "title": "CEnTR-IMPACT Report for the Collaborative Project",
-    "section": "Methods",
-    "text": "Methods\n\nDirect Indicators\n\n\nDynamics\n\n\nAlignment\n\n\nCascade Effects"
-  },
-  {
-    "objectID": "generate_report.html#equations",
-    "href": "generate_report.html#equations",
-    "title": "CEnTR-IMPACT Report for the Collaborative Project",
-    "section": "Equations",
-    "text": "Equations\nThe following are equations utilized to calculate the intermediate and final scores.\n\nGeometric Mean (\\(\\text{GM}\\))LaTeXR\n\n\n\\[ \\text{GM} = \\left(\\prod_{j=1}^{n} M_j\\right)^{\\frac{1}{n}} \\] where \\(s_i\\) is the individual domain score.\n\n\ns_i = \\left(\\prod_{j=1}^{n} M_j\\right)^{\\frac{1}{n}}\n\n\nlibrary(psych)\ngeometric_mean &lt;- geometric.mean(data_frame$vector)\n\n\n\n\nGini Index Complement (\\(G_{\\text{c}}\\))LaTeXR\n\n\n\\[ G_{\\text{c}} = 1 - \\left( \\frac{1}{2n^2\\mu} \\sum_{i=1}^{n} \\sum_{j=1}^{n} | y_i - y_j | \\right) \\] Where: \\(n\\) is the number of domains or degrees, \\(y_i\\) and \\(y_j\\) are domain or degree scores, and \\(\\mu\\) is the mean domain or degree score.\n\n\nG' = 1 - \\left( \\frac{1}{2n^2\\mu} \\sum_{i=1}^{n} \\sum_{j=1}^{n} | y_i - y_j | \\right)\n\n\nlibrary(psych)\ngeometric_mean &lt;- geometric.mean(data_frame$vector)"
-  },
-  {
-    "objectID": "generate_report/about.html",
-    "href": "generate_report/about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   }
 ]
