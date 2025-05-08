@@ -139,7 +139,16 @@ knitr::include_graphics(
 <!------- This text can be formatted in Quarto Markdown. --------->
 <!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
 
+Our Direct Indicators reflect the real-time contributions of our Rising Waters, Resilient Communities partnership. To date:
 
+* **Partners engaged**: We have active collaborations with three coastal town councils (Mount Pleasant, Folly Beach, and Isle of Palms), two community organizations (SC Coastal Coalition and the Gullah Cultural Heritage Foundation), and the Coastal Resilience Network.
+* **Hours invested**: Together, more than 200 volunteer hours have been logged by community citizen scientists alongside university researchers measuring shoreline changes and sharing local knowledge.
+
+* **Events and workshops**: Over 150 residents attended our planning workshops, where participants mapped historic flood zones and contributed traditional ecological insights.
+
+* **Co-created resources**: We’ve developed four community-facing tools—interactive flood maps, a mobile data log app, two workshop guides, and an oral-history recording protocol—and one scholarly article draft. 
+
+These counts capture our current scope: the breadth of our partnerships, the community’s invested time, and the co-designed outputs. While numbers alone don’t fully reflect the scope or depth of impact, they ground our shared journey and demonstrate the foundation we’re building together.
 
 <!--     Enter your analysis of the direct indicators above.     -->
 
@@ -149,7 +158,10 @@ knitr::include_graphics(
 <!------- This text can be formatted in Quarto Markdown. --------->
 <!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
 
-
+* Continue updating attendance logs and volunteer hours, ensuring every citizen scientist’s contribution is recognized.
+* Refine workshop evaluation by collecting brief participant feedback at the end of each session--this will inform improvements to our guides.
+* Translate the existing data log app interface into Spanish and Gullah phrases to increase accessibility for all community members.
+* Track the number of flood markers deployed and oral-history interviews completed, linking these counts into our next snapshot to illustrate growth over time.
 
 <!--     Enter your analysis of the direct indicators above.     -->
 
@@ -177,7 +189,15 @@ knitr::include_graphics(
 <!------- This text can be formatted in Quarto Markdown. --------->
 <!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
 
+The Project Dynamics scores (0.92 overall) underscore a balanced progression across five domains of Rising Waters, Resilient Communities. In particular:
 
+* **Contexts (0.88)**: We’ve grounded our work in the lived experiences of coastal families, integrating Gullah heritage insights alongside local sea-level data. This place-based approach has helped foster trust between researchers and residents, a vital step in building lasting relationships and ensuring that the work reflects shared priorities.
+* **Processes (0.94)**: Community advisory meetings and shared decision protocols have operated smoothly, reflecting strong co-governance.
+* **Research & Interventions (0.46)**: As expected in Phase I, structured data collection tools are still under refinement, pointing to opportunities for deeper collaborative design of sampling methods.
+* **Engaged Learning (0.58)**: Student interns from PAU and RSU co-facilitated workshops, fostering bidirectional learning—however, we can expand mentorship roles for local high school students.
+* **Outcomes (0.44)**: While we’ve produced early deliverables (maps and protocols), we are still translating community goals into measurable resilience actions.
+
+This distribution highlights our strong foundation in setting and collaboration, while signaling that research design and tangible community-driven outcomes warrant attention as we move deeper into co-created climate adaptation planning.
 
 <!--     Enter your analysis of the project dynamics above.     -->
 
@@ -187,7 +207,10 @@ knitr::include_graphics(
 <!------- This text can be formatted in Quarto Markdown. --------->
 <!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
 
-
+* Host a **research design co-lab** where community members and university scientists draft next-phase survey questions and data-collection schedules together.
+* Develop a **mentorship program** pairing local youth with our graduate interns to expand engaged learning and share scientific skills.
+* Set clear **community-defined outcome targets**, such as the number of flood mitigation recommendations adopted by town councils, and build metrics to track them.
+* Embed **quarterly reflection sessions** to revisit our decision-making processes, ensuring transparency and adjusting protocols based on community feedback.
 
 <!--     Enter your analysis of the project dynamics above.     -->
 
@@ -217,7 +240,13 @@ The Alignment Score ($S_a$) is `r alignment_score`.
 <!------- This text can be formatted in Quarto Markdown. --------->
 <!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
 
+Our Project Alignment score of 0.50 indicates fair agreement between community partners and researchers. Examining specific areas:
 
+* High alignment on **Values** (0.69) shows we share a commitment to honoring traditional knowledge and scientific rigor.
+* Strong researcher ratings on **Resources** (0.82) and **Outputs** (0.90) contrast with community ratings (0.49, 0.57), suggesting researchers feel well-equipped and prolific, while partners seek clearer communication around resource allocation and deliverable usefulness.
+* Community-leading perceptions in **Empowerment** (0.77 vs. 0.68) and **Outcomes** (0.74 vs. 0.61) indicate that residents feel valued and hopeful about resilience gains, sometimes more so than researchers anticipate.
+
+These differing views highlight our shared values but reveal operational gaps: partners want more involvement in deciding how resources are used and how outputs serve local needs.
 
 <!--     Enter your analysis of the project alignment above.     -->
 
@@ -227,7 +256,10 @@ The Alignment Score ($S_a$) is `r alignment_score`.
 <!------- This text can be formatted in Quarto Markdown. --------->
 <!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
 
-
+* Convene a **resource transparency workshop**, where budgets, equipment inventories, and data-access plans are laid out for discussion.
+* Co-create an **outputs review working group**—including elders, youth, and researchers—to assess draft materials (maps, apps) for cultural relevance and usability.
+* Use participatory methods (e.g., dot-voting) to **renegotiate roles and responsibilities** in upcoming phases, making adjustments based on partner priorities.
+* Schedule **bi-monthly check-ins** to track alignment progress, using a simple shared dashboard accessible online and at community centers.
 
 <!--     Enter your analysis of the project alignment above.     -->
 
@@ -269,7 +301,13 @@ cascade_df |>
 <!------- This text can be formatted in Quarto Markdown. --------->
 <!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
 
+The Cascade Effects visualization reveals how our network’s influence spreads:
 
+* **1st degree (Score 0.69)**: Core team members—citizen scientists, local leaders, and faculty—demonstrate strong bridging and channeling, ensuring direct communication.
+* **2nd degree (Score 0.60)**: Friends and family of participants show moderate connection, but lower bridging (0.57) suggests we need new pathways to engage broader subgroups.
+* **3rd degree (Score 0.31)**: Wider community networks are currently less knit; influential individuals in outlying groups (e.g., fishing cooperatives) lack strong ties into the project.
+
+This drop-off signals that while our core engagement is robust, our messages and resources may not yet reach the full extent of these coastal communities.
 
 <!--     Enter your analysis of the cascade effects above.     -->
 
@@ -279,7 +317,10 @@ cascade_df |>
 <!------- This text can be formatted in Quarto Markdown. --------->
 <!-- See https://quarto.org/docs/authoring/markdown-basics.html -->
 
-
+* Identify and partner with **local ambassadors**, such as church leaders and cooperative chairs, to strengthen 2nd-degree bridging.
+* Host a **network weaving event**, inviting extended contacts (neighbors, local business owners) to connect with our team and each other.
+* Create **spotlight stories**--short profiles of 1st-degree participants shared via local radio and social media—to increase visibility and interest among the 3rd-degree audience.
+* Track changes in network metrics after these actions to assess whether bridging, knitting, and reaching scores improve for 2nd and 3rd degrees.
 
 <!--     Enter your analysis of the cascade effects above.     -->
 
