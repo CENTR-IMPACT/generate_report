@@ -292,4 +292,4 @@ The software used to generate this report from data and analysis provided by the
 The CEnTR\*IMPACT metrics, associated methodologies, and visualizations used in this report were developed by Jeremy F. Price. Please cite as:
 Price, JF. (2025). CEnTR\*IMPACT Metrics for Community-Engaged Scholarship. [Publisher or repository, if available]
 
-![](centr-impact-logo.png){fig-align="center" width=40%}
+![](centr-impact-logo.png){fig-align="center" width=50%}

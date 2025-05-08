@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: report
 
 website:
   title: "{{< meta params.project_name >}}"

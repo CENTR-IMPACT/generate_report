@@ -41,7 +41,7 @@ vignettes/*.pdf
 .DS_Store
 
 data/*
-reports/*
+
 
 # translation temp files
 po/*~
