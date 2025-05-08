@@ -3,3 +3,37 @@
 table {
   font-family: "Maple Mono", mono;
 }
+
+.callout.callout-info {
+  background-color: #8c99a7 !important;
+  border-color: #3F5E78 !important;
+}
+
+.callout.callout-note {
+  background-color: #8e8380 !important;
+  border-color: #4E342E !important;
+}
+
+/*-- scss:rules --*/
+
+div.callout-colophon.callout {
+  border-left-color: #4E342E;
+}
+
+div.callout-colophon.callout-style-default>.callout-header {
+  background-color: #8e8380;
+}
+
+/*.callout-tweet.icon .callout-icon {
+  display: unset !important;
+}
+
+div.callout-tweet.icon.callout-captioned .callout-icon::before {
+  background-image: $icon;
+}
+
+.callout-tweet.icon.callout-style-default div.callout-icon-container {
+  padding-top: 0.1em;
+  padding-right: 0.35em;
+}
+*/

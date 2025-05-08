@@ -1,14 +1,12 @@
 project:
   type: website
-  output-dir: reports
-
+  
 website:
   title: "{{< meta params.project_name >}}"
 
 format:
   html:
-#    theme: cosmo
-    css: styles.css
+    theme: [style.css]
     toc: true
 
 

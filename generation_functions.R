@@ -46,8 +46,10 @@ library(knitr)
 library(kableExtra)
 
 # Network analysis packages
+library(sna)
 library(igraph)       # For network/graph representation
 library(centiserve)   # For centrality measures in networks
+library(linkcomm)
 
 # File and path management
 library(readr)        # For reading CSV files
@@ -279,6 +281,41 @@ define_colors <- function() {
 # These functions handle common operations needed across different
 # visualization and analysis scripts.
 
+#' Calculate an inverse linear multiplier based on count
+#'
+#' Maps counts in a vector inversely to a specified multiplier range.
+#' The minimum count gets the max_multiplier, the maximum count gets the min_multiplier.
+#'
+#' Calculate a proportional linear multiplier based on count
+#'
+#' Maps counts in a vector linearly to a specified multiplier range.
+#' The minimum count gets the min_multiplier, the maximum count gets the max_multiplier.
+#'
+#' @param count The raw count for the current item/layer.
+#' @param all_counts A numeric vector of all raw counts to determine min/max for scaling.
+#' @param min_multiplier The minimum multiplier value (applied to the min count).
+#' @param max_multiplier The maximum multiplier value (applied to the max count).
+#' @return A numeric multiplier between min_multiplier and max_multiplier.
+calculate_proportional_multiplier <- function(count, all_counts, min_multiplier = 0.5, max_multiplier = 1.0) {
+  min_count <- min(all_counts, na.rm = TRUE)
+  max_count <- max(all_counts, na.rm = TRUE)
+  
+  # Handle case with single layer or all counts are the same
+  if (min_count == max_count) {
+    return(max_multiplier) # No discount/amplification if only one layer or counts are uniform
+  }
+  
+  # Linear scaling: maps min_count to min_multiplier and max_count to max_multiplier
+  multiplier <- min_multiplier + (count - min_count) * (max_multiplier - min_multiplier) / (max_count - min_count)
+  
+  return(multiplier)
+}
+
+
+normalize <- function(x) {
+  (x - min(x)) / (max(x) - min(x))
+}
+
 #' Build a standardized input filename for data files
 #'
 #' Creates a consistent file path for loading data files based on:
@@ -376,7 +413,7 @@ add_title_line <- function(title_text, main_plot, height_ratio, foreground_color
   title_data <- data.frame(
     x_pos = 1,
     y_pos = 1,
-    label = glue("{title_text}")
+    label = title_text
   )
   
   # Define the title plot with appropriate styling
@@ -416,6 +453,19 @@ add_title_line <- function(title_text, main_plot, height_ratio, foreground_color
     plot_layout(heights = c(1, height_ratio))
   
   return(combined_plot)
+}
+
+calculate_dynamic_discount_topology <- function(
+    layer, graph, alpha = 0.8, beta = 0.5, gamma = 0.3) {
+  
+  density <- edge_density(graph)
+  clustering_coefficient <- transitivity(graph, type = "global")
+  discount <- alpha^layer * 
+    (1 - beta * density) *
+    (1 - gamma * clustering_coefficient)
+  
+  return(discount)
+  
 }
 
 
@@ -488,13 +538,13 @@ indicators_plot_dashboard <- create_indicators_plots(
   report_date,
   colors
 )
-# 
-# create_dashboard_plot(
-#   project_name,
-#   report_date,
-#   dynamics_plot_dashboard,
-#   alignment_plot_dashboard,
-#   cascade_plot_dashboard,
-#   indicators_plot_dashboard,
-#   colors
-# )
+
+create_dashboard_plot(
+  project_name,
+  report_date,
+  dynamics_plot_dashboard,
+  alignment_plot_dashboard,
+  cascade_plot_dashboard,
+  indicators_plot_dashboard,
+  colors
+)

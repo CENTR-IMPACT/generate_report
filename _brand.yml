@@ -1,0 +1,80 @@
+meta:
+  name: CEnTR-IMPACT
+
+color:
+  palette:
+    parchment: "#F2ECD7"
+    charcoal: "#4A4A4A"
+    espresso: "#8e8380"
+    forestgreen: "#8ba086"
+    denimblue: "#8c99a7"
+    deepred: "#b26f6b"
+    rust: "#bd908b"
+    burntorange: "#f3d1b8"
+    olivegreen: "#9da183"
+    rainbowindigo: "#6b7894"
+    softbeige: "#f0e5d7"
+    stonegrey: "#888888"
+    indigodye: "#3F51B5"
+    smokymauve: "#8A7A8F"
+  foreground: charcoal
+  background: parchment
+  info: denimblue
+  primary: indigodye
+  secondary: stonegrey
+  tertiary: smokymauve
+
+typography:
+  font:
+  - family: XETBook
+    source: file
+    files:
+    - path: fonts/XETBook/XETBook-Regular.otf
+    - path: fonts/XETBook/XETBook-Italic.otf
+      style: italic
+    - path: fonts/XETBook/XETBook-Bold.otf
+      weight: bold
+    - path: fonts/XETBook/XETBook-BoldItalic.otf
+      weight: bold
+      style: italic
+  - family: BellTopoSans
+    source: file
+    files:
+    - path: fonts/BellTopoSans/BellTopoSans-Regular.otf
+    - path: fonts/BellTopoSans/BellTopoSans-Italic.otf
+      style: italic
+    - path: fonts/BellTopoSans/BellTopoSans-Bold.otf
+      weight: bold
+    - path: fonts/BellTopoSans/BellTopoSans-BoldItalic.otf
+      weight: bold
+      style: italic
+  - family: SourceSans3
+    source: file
+    files:
+    - path: fonts/SourceSans3/SourceSans3-VariableFont_wght.ttf
+      weight: [ 400, 700 ]
+    - path: fonts/SourceSans3/SourceSans3-ItalicVariableFont_wght.ttf
+      style: italic
+      weight: [ 400, 700 ]
+  - family: MapleMono
+    source: file
+    files:
+    - path: fonts/MapleMono/MapleMono-Regular.ttf
+    - path: fonts/MapleMono/MapleMono-Italic.ttf
+      style: italic
+    - path: fonts/MapleMono/MapleMono-Bold.ttf
+      weight: bold
+    - path: fonts/MapleMono/MapleMono-BoldItalic.ttf
+      weight: bold
+      style: italic
+  base:
+    family: XETBook
+    color: charcoal
+  headings:
+    family: SourceSans3
+    color: charcoal
+    weight: 700
+  monospace:
+    family: MapleMono
+  link:
+    color: indigodye
