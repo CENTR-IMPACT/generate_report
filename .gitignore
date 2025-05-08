@@ -39,8 +39,6 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 .DS_Store
-# pkgdown site
-docs/
 
 data/*
 reports/*
